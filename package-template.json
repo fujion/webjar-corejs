@@ -1,7 +1,7 @@
 {
-  "name": "webjar-corejs",
+  "name": "${project.artifactId}",
   "version": "${version.unrevise}",
-  "description": "core-js library",
+  "description": "${project.description}",
   "dependencies": {
     "core-js": "${version.unrevise}"
     }

@@ -11,23 +11,23 @@
 	<artifactId>webjar-corejs</artifactId>
 	<version>2.5.7-1-SNAPSHOT</version>
 	<description>core-js Library.</description>
-	
+
 	<properties>
 		<systemjs>
 			{
 				paths: {
 					"core-js": "."
 				},
-				
+
 				packages: {
 					"core-js": {
 						"main": "client/core.js"
 					}
 				}
-			}			
+			}
 		</systemjs>
 	</properties>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -53,9 +53,9 @@
 						<id>postcompile</id>
 						<configuration>
 							<target>
-								<move todir="${webjar.target}">
+								<copy todir="${webjar.target}">
 									<fileset dir="${src.rootdir}/node_modules/core-js" includes="client/*.*" />
-								</move>
+								</copy>
 							</target>
 						</configuration>
 					</execution>
