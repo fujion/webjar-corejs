@@ -1,0 +1,8 @@
+{
+  "name": "webjar-corejs",
+  "version": "${version.unrevise}",
+  "description": "core-js library",
+  "dependencies": {
+    "core-js": "${version.unrevise}"
+    }
+}
