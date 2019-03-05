@@ -9,7 +9,7 @@
 
 	<name>core-js</name>
 	<artifactId>webjar-corejs</artifactId>
-	<version>2.5.7-1-SNAPSHOT</version>
+	<version>2.6.4-SNAPSHOT</version>
 	<description>core-js Library.</description>
 
 	<properties>
