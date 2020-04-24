@@ -12,22 +12,6 @@
 	<version>2.6.9-SNAPSHOT</version>
 	<description>core-js Library.</description>
 
-	<properties>
-		<systemjs>
-			{
-				paths: {
-					"core-js": "."
-				},
-
-				packages: {
-					"core-js": {
-						"main": "client/core.js"
-					}
-				}
-			}
-		</systemjs>
-	</properties>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -36,9 +20,6 @@
 				<executions>
 					<execution>
 						<id>npm-install</id>
-						<configuration>
-							<skip>false</skip>
-						</configuration>
 					</execution>
 				</executions>
 			</plugin>
