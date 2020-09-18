@@ -1,10 +1,7 @@
 {
-  "paths": {
-    "core-js": "."
-  },
-  "packages": {
-    "core-js": {
-      "main": "client/core.js"
-    }
+  "imports": {
+    "core-js": "client/core.js",
+    "core-js/client/library": "client/library.js",
+    "core-js/client/shim": "client/shim.js"
   }
 }
